@@ -1,0 +1,12 @@
+﻿{
+  "Version": "13.2.1",
+  "Name": "Custom ShareX uploader",
+  "DestinationType": "ImageUploader, TextUploader, FileUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "https://yourdomain.com/upload.php",
+  "Body": "MultipartFormData",
+  "Arguments": {
+    "token": "CHANGE_ME"
+  },
+  "FileFormName": "sharexcustomuploader"
+}
